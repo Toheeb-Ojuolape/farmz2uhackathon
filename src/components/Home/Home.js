@@ -1,14 +1,17 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import logout from "../log-out.svg";
+import logout from "./../../images/log-out.svg";
 import SelectForm from "./SelectForm";
 import Cards from "./Cards";
-import cocoa from "../cocoa-reduced.png";
-import trophy from "../trophy.svg";
-import potatoes from "../fresh-potatoes-reduced.png";
-import yam from "../yam-reduced.png";
-import apple from "../fresh-ripe-apples-reduced@2x.png";
-import Topselling from "../components/Topselling";
+import cocoa from "./../../images/cocoa-reduced.png";
+import trophy from "./../../images/trophy.svg";
+import potatoes from "./../../images/fresh-potatoes-reduced.png";
+import yam from "./../../images/yam-reduced.png";
+import apple from "./../../images/fresh-ripe-apples-reduced@2x.png";
+import Topselling from "./Topselling";
+import CardMobile from './CardMobile'
+import './homeMobile.css';
+import "./Home.css"
 
 class Home extends Component {
   state = {
@@ -52,6 +55,7 @@ class Home extends Component {
       <div>
       <div className="Home laptop ">
         <div className="pushUp laptop">
+        
           {/* Navigation */}
           <nav className="nav-wrapper orange lighten-1">
             <div className="container">
@@ -101,7 +105,7 @@ class Home extends Component {
         </div>
         {/* End of Navigation */}
         <div className="dashboard laptop row">
-          <div className="column5">
+          <div className="summaryTitle">
             <p className="summary">Summary</p>
             <span className="subtitle">Last 10 days</span>
           </div>
@@ -119,7 +123,7 @@ class Home extends Component {
               <span className="subtitle">Last 10 days</span>
               <div className="card grey lighten-3">Content coming from Api</div>
             </div>
-            <div className="column10">
+            <div className="topsellingSection">
               <p className="topselling">Top selling products</p>
               <Topselling topsells={this.state.topsells} />
             </div>
@@ -127,24 +131,21 @@ class Home extends Component {
         </div>
       </div>
        <div className="Home phone">
-       <div className="dashboardmobile row">
-          <div className="column5">
+       <div className="dashboardMobile row">
+          <div className="summaryTitle">
             <p className="summary">Summary</p>
             <span className="subtitle">Last 10 days</span>
           </div>
           <div>
             <div className="carousel">
-            <a className="cardprofit carousel-item" href="#one!">
-    <p className="profit">Profit</p>
-        <p className="amountProfit">₦ 1,731,782</p>
-        <span className="addedProfit">+45,892 in the last 7 days</span>
-    </a>
-    <a className="cardprofit carousel-item" href="#two!">
-    <p className="profit">Profit</p>
-        <p className="amountProfit">₦ 1,731,782</p>
-        <span className="addedProfit">+45,892 in the last 7 days</span>
-    </a>
+             <CardMobile />
+             
+             <p className="salesReport">Sales Report</p>
+              <span className="salesDays">Last 10 days</span>
+              <div className="card grey lighten-3">Content coming from Api</div>
             </div>
+            <p className="topselling">Top selling products</p>
+              <Topselling topsells={this.state.topsells} />
           </div>
         </div>
       </div>

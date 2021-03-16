@@ -1,0 +1,181 @@
+.topsells{
+    font-size:15px;
+    font-weight:600;
+    margin-bottom:0px
+  }
+
+  .topsellscard{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 93%;
+    border-radius: 5px;
+    padding:10px;
+    margin:10px;
+    margin-bottom:20px;
+  }
+
+  
+  .profit{
+    font-size:15px;
+    margin-bottom:0px;
+    color:white;
+  }
+  
+  .sale{
+    font-size:15px;
+    margin-bottom:0px;
+    color:black;
+  }
+  
+  .amount{
+    font-size:20px;
+    font-weight:600;
+    color:green;
+    margin-top:0px;
+    margin-bottom:0px;
+  }
+  
+  .amountIncome{
+    font-size:45px;
+    font-weight:500;
+    color:white;
+    margin-top:0px;
+    margin-bottom:0px;
+  }
+  
+  .amountProfit{
+    font-size:20px;
+    font-weight:600;
+    color:white;
+    margin-top:0px;
+    margin-bottom:0px;
+  }
+  
+  .added{
+    font-size: 10px;
+    font: weight 200px;
+    color:green;
+    margin-top:0px;
+    padding-bottom:7px;
+  }
+  
+  .addedProfit{
+    font-size: 10px;
+    font: weight 200px;
+    color:white;
+    margin-top:0px;
+    padding-bottom:7px;
+  }
+
+  .cardprofit{
+    padding:7px;
+    padding-left:22px;
+    width:201px;
+    background-color:#298525;
+    height:109px;
+    border-radius:15px;
+  }
+  
+  .cardsales{
+    padding:7px;
+    padding-left:22px;
+    width:201px;
+    height:109px;
+    background-color:#F3F3F3;
+    border-radius:15px;
+  }
+
+  .topselling{
+    font-size:20px;
+    font-weight:600;
+    padding-left:10px;
+  }
+  
+  .cardlast{
+    padding:7px;
+    padding-left:22px;
+    width:275px;
+    height:130px;
+    border-radius:15px;
+    background-color:#F2A133;
+  }
+
+  .summaryTitle {
+    float:left;
+    width:50%;
+    margin-left:10px;
+  }
+
+  .column7{
+    float:left;
+    width:17%;
+  }
+
+  .column9{
+    float:left;
+    width:60%;
+    padding-left:10px
+  }
+  
+  .topsellingSection{
+    float:left;
+    margin-top:63px;
+    padding-left:140px;
+    width:40%;
+  }
+
+
+  
+.topsellsImage {
+    float:left;
+    width:20%;
+    margin-top:15px;
+    margin-left:10px;
+  }
+
+  .topsellsName {
+    float:left;
+    width:60%;
+    padding-left:30px;
+    margin-top:5px;
+  }
+
+  .topsellsTrophy {
+    float:left;
+    width:10%;
+    margin-top:30px;
+    margin-left:0px
+  }
+
+  .subtitle{
+    font-weight: 300;
+    padding-top:-10px;
+    margin-bottom:0px
+  }
+
+  .buttonStock{
+    border-radius:60px;
+    background:#b9d8b8;
+    padding:7px;
+    color:#298525;
+    padding-left:20px;
+    position:relative;
+    height:30px;
+    font-size:10px;
+    width:100px;
+    margin-top:-1px
+}
+  
+
+.salesReport{
+ padding-left:10px;
+ font-weight:600;
+ font-size:20px;
+ margin-bottom:0px
+}
+
+.salesDays{
+    padding-left:10px;
+    font-size:14px;
+    margin-top:0px
+}

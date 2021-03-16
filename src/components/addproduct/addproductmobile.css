@@ -1,0 +1,173 @@
+@media only screen and (max-width: 880px) {
+
+	header .header-flex .search-bar img{
+
+		position: relative;
+		top: 10px;
+		left:750%;
+		width: 20px;
+
+	}
+
+
+	main{
+
+		display: flex;
+
+		margin-top: 50px;
+		margin-bottom: 300px;
+
+
+
+		padding-right: 10px;
+		padding-left: 3%;
+
+	}
+
+	main .addproduct-form{
+
+		width: 90%;
+	}
+
+
+	main .addproduct-form .form-name{
+
+		font: normal normal 600 20px/24px  Montserrat-SemiBold;
+
+
+
+		
+	}
+
+	main .addproduct-form label,input,textarea{
+
+		display: block;
+
+	}
+
+	main .addproduct-form label{
+
+		margin-bottom: 10px;
+
+		font-size: 15px;
+		font-family: Montserrat-Regular;
+		color: #333333;
+	}
+
+	main .addproduct-form label small{
+
+		display: block;
+		font-size: 10px;
+
+		margin-top: 5px;
+
+	}
+
+
+	main .addproduct-form input{
+
+		margin-bottom: 20px;
+
+		background: #F3F3F3 0% 0% no-repeat padding-box;
+
+		border-radius: 3px;
+		border:none;
+
+		width: 100%;
+		height: 42px;
+
+		opacity: 1;
+
+		font-size: 15px;
+		font-family: Montserrat-Regular;
+
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+
+	main .addproduct-form textarea{
+
+		margin-bottom: 20px;
+
+		background: #F3F3F3 0% 0% no-repeat padding-box;
+
+		border-radius: 3px;
+		border:none;
+
+		width: 100%;
+		height: 154px;
+
+		opacity: 1;
+
+		font-size: 15px;
+		font-family: Montserrat-Regular;
+
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+
+
+	}
+
+	main .back-btn{
+
+		
+
+		
+		display: none;
+
+		
+
+	}
+
+
+
+	
+
+	.mobileback-btn{
+
+		display: inline-block;
+
+		position: relative;
+		top:-950px;
+		left:250px;
+
+		
+		font: normal normal 600 15px/19px Montserrat-Regular;
+		
+
+		
+		letter-spacing: 0px;
+		color: #707070;
+		opacity: 1;
+	}
+
+
+	main .addproduct-form .add-product-btn{
+
+		position: relative;
+		top: 20px;
+		left:0;
+
+		background: #F2A133 0% 0% no-repeat padding-box;
+
+		border-radius: 22px;
+		border:none;
+
+		color: #FFFFFF;
+		font-family: Montserrat-Regular;
+		font-size: 15px;
+
+		width: 105%;
+		height: 35px;
+
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 5px;
+		padding-bottom:5px;
+	}
+
+	
+}

@@ -1,0 +1,95 @@
+@media only screen and (max-width: 768px) {
+
+	
+	header{
+
+		margin-top:-10px;
+		margin-right: 0;
+		margin-left: -20px;
+		margin-bottom: -45px;
+
+		background-image: none;
+		background-color: #298525;
+		
+
+		padding-right: 10px;
+		padding-left: 8%;
+		padding-top: 15px;
+
+		height: 59px;
+		width: 100%;
+
+
+	}
+
+
+	header .header-flex {
+	  display: flex;
+	  
+	 
+	}
+
+
+	header .header-flex .farmz2u-logo{
+
+		
+
+		margin-right: 20px;
+		margin-top: 5px;
+
+		
+
+		width:80px;
+		height: 25px;
+
+		font-size: 10px;	
+
+	}
+
+	/*header .header-flex .search-bar{
+		flex-grow: 5;
+	}*/
+
+	header .header-flex .search-bar input[type=text]::placeholder {
+
+		display: none;
+	}
+
+	header .header-flex .search-bar input[type=text]{
+
+		display: none;
+		
+	}
+
+	header .header-flex .settings-icon{
+
+		display: none;
+		
+
+	}
+
+	header .header-flex .bell-icon{
+
+		display: none;
+
+	}
+
+
+	header .header-flex .profile-icon img{
+		display: none;
+	}
+
+	header .header-flex .menu-toggle{
+
+		display: inline-block;
+
+		position: relative;
+		left:600%;
+		top:10px;
+	}
+
+	
+
+	
+
+}

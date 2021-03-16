@@ -1,0 +1,174 @@
+header .header-flex .search-bar img{
+
+	position: relative;
+	top:-38px;
+	left:450px;
+
+
+}
+
+main{
+
+	display: flex;
+
+	margin-top: 40px;
+	margin-bottom: 100px;
+
+	padding-right: 40px;
+	padding-left: 70px;
+
+
+
+}
+
+
+main .addproduct-form{
+
+	width: 550px;
+}
+
+main .addproduct-form .form-name{
+
+	font-size: 20px;
+	font-family: Montserrat-SemiBold;
+}
+
+main .addproduct-form label,input,textarea{
+
+	display: block;
+
+}
+
+main .addproduct-form label{
+
+	margin-bottom: 10px;
+
+	font-size: 15px;
+	font-family: Montserrat-Regular;
+	color: #333333;
+}
+
+main .addproduct-form label small{
+
+	display: block;
+	font-size: 10px;
+
+	margin-top: 5px;
+
+}
+
+
+main .addproduct-form input{
+
+	margin-bottom: 20px;
+
+	background: #F3F3F3 0% 0% no-repeat padding-box;
+
+	border-radius: 3px;
+	border:none;
+
+	width: 420px;
+	height: 42px;
+
+	opacity: 1;
+
+	font-size: 15px;
+	font-family: Montserrat-Regular;
+
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+main .addproduct-form textarea{
+
+	margin-bottom: 20px;
+
+	background: #F3F3F3 0% 0% no-repeat padding-box;
+
+	border-radius: 3px;
+	border:none;
+
+	width: 420px;
+	height: 99px;
+
+	opacity: 1;
+
+	font-size: 15px;
+	font-family: Montserrat-Regular;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+
+}
+
+main .addproduct-form .image-input{
+
+	display: flex;
+
+}
+
+main .addproduct-form .image-input .image-handle{
+
+	background: #F3F3F3 0% 0% no-repeat padding-box;
+
+	border-radius: 3px;
+
+	opacity: 1;
+
+	width: 130px;
+	height: 100px;
+
+	margin-right: 18px;
+
+}
+
+main .addproduct-form .add-product-btn{
+
+	position: relative;
+	top: 15px;
+	left:280px;
+
+	background: #F2A133 0% 0% no-repeat padding-box;
+
+	border-radius: 22px;
+	border:none;
+
+	color: #FFFFFF;
+	font-family: Montserrat-Regular;
+	font-size: 15px;
+
+	width: 150px;
+	height: 35px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom:5px;
+}
+
+main .back-btn{
+
+	flex-grow: 2;
+}
+
+main .back-btn h3{
+
+
+	font-family: Montserrat-Regular;
+	font-size: 15px;
+	word-spacing: 5px;
+}
+
+main .back-btn h3 .back-arrow{
+
+	margin-right: 10px;
+}
+
+.mobileback-btn{
+
+	display: none;
+}

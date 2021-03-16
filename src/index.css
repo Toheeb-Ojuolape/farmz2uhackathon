@@ -49,24 +49,29 @@ body {
   color: black;
 }
 
-.header{
-  background-image:url("./top-bg.png")
-}
-
 .enterForm{
   margin-right:200px
 }
 
-.column {
+.column19{
   float:left;
-  width:60%;
-  margin-top:-10px;
-  padding-left:77px
+  width:40%;
+  margin-top:20px;
+  margin-left:17px;
+  margin-bottom:12px
 }
 
-.column11 {
+.column20{
   float:left;
-  width:3%;
+  width:10%;
+  margin-top:30px;
+  margin-left:90px
+}
+
+.column21{
+  float:left;
+  width:5%;
+  margin-top:30px
 }
 
 .column1 {
@@ -107,39 +112,17 @@ body {
   height:10px;
 }
 
-.column5 {
-  float:left;
-  width:50%;
-  margin-left:10px;
-}
-
 .column6{
   float:left;
   width:20%;
 }
 
-.column7{
-  float:left;
-  width:17%;
-}
+
 
 .column8{
   float:left;
   padding-left:60px;
   width:30%;
-}
-
-.column9{
-  float:left;
-  width:60%;
-  padding-left:10px
-}
-
-.column10{
-  float:left;
-  margin-top:63px;
-  padding-left:140px;
-  width:40%;
 }
 
 .column12{
@@ -157,7 +140,7 @@ body {
 
 .column14{
   float:left;
-  width:70%;
+  width:95%;
 }
 
 .pagination{
@@ -166,7 +149,7 @@ body {
 
 .column15{
   float:left;
-  width:30%;
+  width:5%;
 }
 
 .column17{
@@ -183,19 +166,6 @@ body {
   font-size:13px
 }
 
-.topselling{
-  font-size:20px;
-  font-weight:600;
-}
-
-.cardlast{
-  padding:7px;
-  padding-left:22px;
-  width:275px;
-  height:130px;
-  border-radius:15px;
-  background-color:#F2A133;
-}
 
 .card{
   width:845px;
@@ -208,23 +178,7 @@ body {
   margin:40px;
 }
 
-.cardprofit{
-  padding:7px;
-  padding-left:22px;
-  width:201px;
-  background-color:#298525;
-  height:109px;
-  border-radius:15px;
-}
 
-.cardsales{
-  padding:7px;
-  padding-left:22px;
-  width:201px;
-  height:109px;
-  background-color:#F3F3F3;
-  border-radius:15px;
-}
 
 
 .circle{
@@ -233,27 +187,7 @@ body {
   opacity:0.4
 }
 
-.subtitle{
-  font-weight: 300;
-  padding-top:-10px;
-  margin-bottom:0px
 
-}
-
-
-.button{
-    border-radius:60px;
-    background:#b9d8b8;
-    padding:10px;
-    color:#298525;
-    padding-left:20px;
-    position:relative;
-    height:30px;
-    
-    font-size:10px;
-    width:100px;
-    margin-top:-1px
-}
 
 .number{
   font-size:11px
@@ -264,7 +198,7 @@ body {
 }
 
 .logOut{
-  padding-left:330px
+  padding-left:300px
 }
 
 .dashboard{
@@ -282,69 +216,26 @@ body {
 
 }
 
-.topsells{
-  font-size:15px;
+.Orders{
   font-weight:600;
-  margin-bottom:0px
-}
-
-.profit{
-  font-size:15px;
-  margin-bottom:0px;
-  color:white;
-}
-
-.sale{
-  font-size:15px;
-  margin-bottom:0px;
-  color:black;
-}
-
-.amount{
   font-size:20px;
-  font-weight:600;
-  color:green;
-  margin-top:0px;
-  margin-bottom:0px;
+  margin-bottom:2px;
+  padding-left:70px
+
 }
 
-.amountIncome{
-  font-size:45px;
-  font-weight:500;
-  color:white;
-  margin-top:0px;
-  margin-bottom:0px;
+.farmers-product{
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top:5px
 }
 
-.amountProfit{
-  font-size:20px;
-  font-weight:600;
-  color:white;
-  margin-top:0px;
-  margin-bottom:0px;
-}
-
-.added{
-  font-size: 10px;
-  font: weight 200px;
-  color:green;
-  margin-top:0px;
-  padding-bottom:7px;
-}
-
-.addedProfit{
-  font-size: 10px;
-  font: weight 200px;
-  color:white;
-  margin-top:0px;
-  padding-bottom:7px;
-}
 
 .logouticon{
-  padding-left:10px;
-  margin-top:30px;
-  margin-bottom:-30px;
-  height:50%
+  padding-left:28px;
+  margin-right:-20px;
+  padding-top:30px;
+  padding-bottom:-30px;
 }
 
 .all{
@@ -405,6 +296,14 @@ input[type=text]:focus {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.Home {
+  margin-top:18px
+}
+
+.Order {
+  margin-top:18px
 }
 
 

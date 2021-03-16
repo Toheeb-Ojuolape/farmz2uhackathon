@@ -1,0 +1,67 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 1000px;
+    margin-bottom:200px;
+    background: rgba(36, 36, 36, 0.123);
+  }
+  
+  .modal-main {
+    position:fixed;
+    background: white;
+    padding:15px;
+    width: 90%;
+    height: auto;
+    top:50%;
+    left:50%;
+    margin-bottom:300px;
+    transform: translate(-50%,-50%);
+    border-radius:5px;
+  }
+  
+  .display-block {
+    display: block;
+  }
+  
+  .display-none {
+    display: none;
+  }
+
+  .modalTitle{
+    color:#A5A5A5;
+    font-size:14px;
+    font-weight:300px;
+    margin-bottom:3px;
+  }
+
+  .modalValue{
+      margin-top:0px;
+      padding-top:0px;
+      margin-bottom:2px;
+      font-size:13px;
+      font-weight:900px;
+  }
+
+  .completeOrder{
+    border-radius:60px;
+    color:white;
+    padding:10px;
+    text-align: center;
+    background:#F2A133;
+    margin-right:15px;
+    width:300px;
+    font-size:15px;
+}
+
+.deleteOrder{
+    border-radius:60px;
+    color:black;
+    padding:8px;
+    text-align: center;
+    background:#ffffff;
+    margin-right:15px;
+    width:300px;
+    font-size:15px;
+}

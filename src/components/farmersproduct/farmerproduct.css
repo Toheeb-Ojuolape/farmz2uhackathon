@@ -1,0 +1,335 @@
+
+
+
+
+.product-counter{
+
+	margin-top:70px;
+
+	padding-left: 70px;
+
+	line-height: 5px;
+
+}
+
+.product-counter-title{
+	font-weight:600;
+  font-size:20px;
+  margin-bottom:2px
+}
+
+.product-counter h3{
+
+	font-family: Montserrat-Regular;
+
+}
+
+.product-counter small{
+
+	color: grey;
+	font-family: Montserrat-Regular;
+}
+
+.tab{
+	display: flex;
+
+	margin-top:30px;
+
+	padding-left: 25px;
+}
+
+
+.tab h3{
+
+	font-size: 15px;
+	
+	padding-left: 50px;
+
+	color:grey;
+	font-family: Montserrat-Regular;
+
+}
+
+
+.tab .active{
+
+	position: relative;
+	top:-10px;
+	color: #F2A133;
+	font-family: Montserrat-Regular;
+
+	background-color: #fae4c4;
+
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	border-radius: 20px;
+
+	margin-left: 38px;
+
+
+
+}
+
+.tab .add-product-btn .add-icon{
+
+	margin-right: 10px;
+}
+
+
+.tab .add-product-btn{
+
+	position: relative;
+	left:275%;
+	
+	border-radius: 30px;
+	border:none;
+
+	background-color: #f4a232;
+	color: white;
+
+	width:150px;
+	height: 38px;
+
+
+	margin-right: 70px;
+
+	font-family: Montserrat-Regular;
+
+
+}
+
+.farmers-products{
+
+	margin-right: 60px;
+	margin-left: 60px;
+
+}
+
+
+.farmers-products .farmers-products-header{
+
+	display: flex;
+
+	border-radius: 5px;
+
+	background-color: green;
+
+	height: 60px;
+
+	padding-left: 25px;
+
+	padding-right: 50px;
+}
+
+
+
+.farmers-products .farmers-products-header h3{
+
+	padding-top: 10px;
+
+	color: white;
+	font-family: Montserrat-Regular;
+
+	margin-right: 70px;
+
+
+	font-size: 12px;
+
+
+}
+
+
+.farmers-products .farmers-products-header .product-details{
+
+	flex-grow: 2;	
+}
+
+
+.farmers-products .farmers-products-info-mobile{
+
+	display: none;
+		
+}
+
+
+.farmers-products .farmers-products-info{
+
+	display: flex;
+
+	border-radius: 5px;
+
+	margin-top: 10px;
+
+	background-color: #f7f7f7;
+
+	height: 90px;
+
+	padding-left: 25px;
+
+	padding-right: 50px;
+}
+
+
+.farmers-products .farmers-products-info h3{
+
+	padding-top: 10px;
+
+	margin-right: 70px;
+
+	font-size: 12px;
+
+	font-family: Montserrat-Regular;
+	width:40px;
+
+	
+}
+
+
+.farmers-products .farmers-products-info .product-details{
+
+	flex-grow: 2;
+
+}
+
+.farmers-products .farmers-products-info .product-price{
+
+	position: relative;
+	left: 30px;
+
+
+}
+
+.farmers-products .farmers-products-info img{
+
+	height: 60px;
+
+	margin-top: 10px;
+}
+
+.farmers-products .farmers-products-info .outofstock{
+
+
+	position: relative;
+	left:70px;
+
+
+	color: #FE2E2E;
+	font-family: Montserrat-Regular;
+
+	background: #f9cfcf 0% 0% no-repeat padding-box;
+
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	border-radius: 20px;
+
+	margin-right: 58px;
+
+	width: 80px;
+	height: 18px;
+
+
+}
+
+
+.farmers-products .farmers-products-info .instock{
+
+	position: relative;
+	left:70px;
+
+
+	color:  #298525;
+	font-family: Montserrat-Regular;
+
+	background: #cee1cd 0% 0% no-repeat padding-box;
+
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	border-radius: 20px;
+
+	margin-right: 58px;
+
+	width: 80px;
+	height: 18px;
+}
+
+
+
+.farmers-products .farmers-products-info .product-options{
+
+	background-color: red;
+
+	height: 30px;
+
+	margin-top: 15px;
+	position: relative;
+	left: 30px;
+}
+
+.farmers-products .farmer-product-pagination{
+
+	display: flex;
+	font-family: Montserrat-Regular;
+}
+
+.farmers-products .farmer-product-pagination .pagination-info{
+
+	flex-grow: 2;
+
+	color: green;
+	font-family: Montserrat-Regular;
+	font-size: 15px;
+}
+
+
+.farmers-products .farmer-product-pagination .pagination-control .control{
+	color:black;
+	font-size:100px
+
+}
+
+.farmers-products .add-product-icon{
+
+		display: none;
+}
+
+.arrowprev {
+	margin-left:-100px;
+}
+
+.arrownext {
+	padding-left:20px;
+}
+
+.number {
+	font-size:16px;
+	margin-top:10px;
+	padding-left:20px
+
+}
+
+.pagination {
+  display:flex
+}
+
+.pagination .left{
+	flex:1
+}
+
+.pagination .right{
+	flex:1
+}
+
+
+a {
+	color:inherit;
+	text-decoration: none
+}

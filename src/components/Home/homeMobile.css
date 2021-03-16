@@ -1,0 +1,50 @@
+div.scrollmenu {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+  }
+
+
+
+  .cardprofitMobile{
+    padding:14px;
+    margin-left:4px;
+    width:210px;
+    background-color:#298525;
+    height:120px;
+    border-radius:15px;
+    margin:20px;
+    
+  }
+  
+  .cardsalesMobile{
+    padding:14px;
+    margin-left:20px;
+    width:210px;
+    height:120px;
+    background-color:#F3F3F3;
+    border-radius:15px;
+    margin:20px;
+  }
+
+  .cardlastMobile{
+    padding:7px;
+    padding-left:22px;
+    margin-left:20px;
+    width:320px;
+    height:130px;
+    border-radius:15px;
+    background-color:#F2A133;
+  }
+
+  .cardcolumn{
+    float:left;
+    width:30%;
+  }
+

@@ -1,23 +1,26 @@
 import React, {Component} from 'react'
-import Header from "./Header"
 import { BrowserRouter,Route } from "react-router-dom"
-import Home from "./components/Home"
-import  Orders from "./components/Orders"
-import Products from "./components/Products"
-import Stock from "./components/Stock"
-import Report from "./components/Report"
+import Home from "./components/Home/Home"
+import  Orders from "./components/Orders/Orders"
+import Stock from "./components/Stock/Stock"
+import Report from "./components/Report/Report"
+import Header from "./components/common/header/Header.js"
+import AddProduct from "./components/addproduct/AddProduct"
+import FarmerProduct from "./components/farmersproduct/FarmerProduct"
+
 
 class App extends Component {
   render(){
     return (
       <BrowserRouter>
+      <Header />
            <div className="App">
-        <Header />
         <Route exact path='/' component={Home} />
         <Route path='/orders' component={Orders} />
-        <Route path="/products" component={Products} />
+        <Route path="/products" component={FarmerProduct} />
         <Route path="/stock" component={Stock} />
         <Route path="/report" component={Report} />
+        <Route path="/addproduct" component={AddProduct} />
       </div>
 
       </BrowserRouter>

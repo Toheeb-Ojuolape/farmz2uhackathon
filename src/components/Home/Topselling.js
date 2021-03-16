@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
-import  cocoa from "../cocoa-reduced.png"
-import trophy from "../trophy.svg"
+import  cocoa from "./../../images/cocoa-reduced.png"
+import trophy from "./../../images/trophy.svg"
 
 
 class Topselling extends Component {
@@ -8,17 +8,17 @@ class Topselling extends Component {
         const { topsells } = this.props
         const topsellsList = topsells.map(topsells =>{
             return (
-                <div className="topsells" key={topsells.id}>
+                <div className="topsellscard" key={topsells.id}>
                 <div className="row">
-                <div className="column11">
+                <div className="topsellsImage">
                   <img src={cocoa} alt="food" />
                 </div>
-                <div className="column">
+                <div className="topsellsName">
                   <p className="topsells">{topsells.name}</p>
                    <span className="subtitle">{topsells.sales} sold</span>
-                <p className="button"><span className="stock">{topsells.stock}</span></p>
+                <p className="buttonStock"><span className="stock">{topsells.stock}</span></p>
                 </div>
-                <div className="column11">
+                <div className="topsellsTrophy">
                  <img src={trophy} alt="trophy" />
                 </div>
                </div>

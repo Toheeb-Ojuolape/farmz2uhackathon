@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import logout from "../log-out.svg";
+import logout from "./../../images/log-out.svg";
 import Table from "./Table";
-import BasicPagination from "./Pagination";
-
+import Fab from '@material-ui/core/Fab';
+import './OrderMobile.css'
+import OrderCards from './OrderCards'
 
 
 
@@ -32,7 +33,7 @@ class Order extends Component {
         zone: "Lekki",
         invoice: "10,000",
         status: "• Pending",
-        id: 1,
+        id: 2,
       },
       {
         order: "213AB",
@@ -43,7 +44,7 @@ class Order extends Component {
         zone: "Lekki",
         invoice: "10,000",
         status: "• Completed",
-        id: 1,
+        id: 3,
       },
       {
         order: "213AB",
@@ -54,7 +55,7 @@ class Order extends Component {
         zone: "Lekki",
         invoice: "10,000",
         status: "• Pending",
-        id: 1,
+        id: 4,
       },
       {
         order: "213AB",
@@ -65,7 +66,7 @@ class Order extends Component {
         zone: "Lekki",
         invoice: "10,000",
         status: "• Completed",
-        id: 1,
+        id: 5,
       },
       {
         order: "213AB",
@@ -76,7 +77,7 @@ class Order extends Component {
         zone: "Lekki",
         invoice: "10,000",
         status: "• Pending",
-        id: 1,
+        id: 6,
       },
       {
         order: "213AB",
@@ -86,8 +87,8 @@ class Order extends Component {
         phone: "08023718302",
         zone: "Lekki",
         invoice: "10,000",
-        status: "• Completed",
-        id: 1,
+        status: "Completed",
+        id: 7,
       },
     ],
   };
@@ -95,7 +96,7 @@ class Order extends Component {
     return (
       <div className="Order">
         <div className="pushUp">
-          <nav className="nav-wrapper orange lighten-1">
+          <nav className="laptop nav-wrapper orange lighten-1">
             <div className="container">
               <ul className="center">
                 <li>
@@ -131,7 +132,6 @@ class Order extends Component {
                   <NavLink to="/report"> Report</NavLink>
                 </li>
                 <li className="logOut">
-                  {" "}
                   <NavLink to="/logout">
                     Logout{" "}
                     <span className="logouticon">
@@ -143,7 +143,7 @@ class Order extends Component {
             </div>
           </nav>
         </div>
-        <div className="dashboard">
+        <div className="laptop dashboard">
           <p className="summary">Orders</p>
           <span className="subtitle">12 orders found</span>
           <div className="row">
@@ -166,11 +166,43 @@ class Order extends Component {
               <p className="showing">Showing 1-6 of 500</p>
             </div>
             <div className="column15">
-            <BasicPagination />
+            <div className="pagination-control"> 
+          <div className="pagination">
+          <div className="arrowprev">
+          <Fab size="small" disabled>
+  <a href="#1">	&lt;</a>
+  </Fab>
+  </div>
+  <div className="number">
+  <a href="1"><b>1</b></a>
+  </div>
+  <div className="arrownext">
+  <Fab size="small" disabled>
+  <a href="#3">&gt;</a>
+  </Fab>
+  </div>
+</div>
+					</div>
             </div>
           </div>
         </div>
-      </div>
+        <div className="OrderMobile">
+        <p className="ordermobile">Orders</p>
+        <p className="ordernumber"> 12 orders found</p>
+        <div className="row">
+            <div className="columnorder">
+              <div className="allorders">All Orders</div>
+            </div>
+            <div className="columnpending">
+              <div className="pending">Pending Orders</div>
+            </div>
+            <div className="columncomplete">
+              <div className="completed">Completed</div>
+            </div>
+          </div>
+          <OrderCards tableRow={this.state.tableRow} />
+        </div>
+        </div>
     );
   }
 }

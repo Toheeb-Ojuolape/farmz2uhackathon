@@ -1,0 +1,226 @@
+@media only screen and (max-width: 880px) {
+
+	header .header-flex .search-bar img{
+
+		position: relative;
+		top: 10px;
+		left:150px;
+		width: 20px;
+
+	}
+
+
+	.product-counter{
+
+		margin-top:70px;
+
+		padding-left: 2%;
+
+		line-height: 5px;
+
+	}
+
+	.product-counter h3{
+
+		font-family: Montserrat-Regular;
+		font-size: 20px;
+
+	}
+
+	.product-counter small{
+
+		color: grey;
+		font-family: Montserrat-Regular;
+	}
+
+
+	.tab{
+		display: flex;
+
+		margin-top:30px;
+		margin-left: -60px;
+
+		padding-left: 30px;
+	}
+
+
+	.tab h3{
+
+		font-size: 15px;
+		
+		padding-left: 40px;
+		
+
+		color:grey;
+		font-family: Montserrat-Regular;
+		font-size: 13px;
+
+	}
+
+
+	.tab .active{
+
+		position: relative;
+		top:-10px;
+
+		color: #F2A133;
+		font-family: Montserrat-Regular;
+		font-size: 13px;
+
+		background-color: #fae4c4;
+
+		padding-right: 20px;
+		padding-left: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+		border-radius: 20px;
+
+		margin-left: 38px;
+
+
+
+	}
+
+	.tab .add-product-btn .add-icon{
+
+		margin-right: 10px;
+	}
+
+
+	.tab .add-product-btn{
+
+		display: none;
+
+
+	}
+
+
+	.farmers-products{
+
+		margin-right: 0;
+		margin-left: 15px;
+
+		margin-bottom: 50px;
+
+	}
+
+
+	.farmers-products .farmers-products-header{
+		
+		display: none;
+	}
+
+
+
+	
+
+	.farmers-products .farmers-products-info{
+
+		display: none;
+	}
+
+	.farmers-products .farmers-products-info-mobile{
+
+		display: flex;
+
+		width: 98%;
+		height: 184px;
+		/* UI Properties */
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		box-shadow: 0px 5px 10px #0000001A;
+
+		margin-bottom: 30px;
+
+
+	}
+
+
+	.farmers-products .farmers-products-info-mobile img{
+
+		height: 184px;
+		width: 120px;
+
+		margin-right: 15px;
+
+	}
+
+
+	.farmers-products .add-product-icon{
+
+		display: inline-block;
+
+		position: fixed;
+		top:65%;
+		left:70%;
+	}
+
+
+	.farmers-products .farmers-products-info-mobile .product-details .product-name{
+
+		font-size: 20px;
+		font-family: Montserrat-Regular;
+		letter-spacing: 0px;
+		color: #414141;
+	}
+
+	.farmers-products .farmers-products-info-mobile .product-details .product-price{
+
+		font-size: 13px;
+		font-family: Montserrat-Regular;
+		letter-spacing: 0px;
+
+		margin-top: -17px;
+	}
+
+	.farmers-products .farmers-products-info-mobile .product-details .product-description{
+
+		font-size: 15px;
+		font-family: Montserrat-Regular;
+		letter-spacing: 0px;
+
+	}
+
+	.farmers-products .farmers-products-info-mobile .product-details .instock{
+
+		color:  #298525;
+		font-family: Montserrat-Regular;
+		font-size: 13px;
+		text-align: center;
+
+		background: #cee1cd 0% 0% no-repeat padding-box;
+
+		padding-right: 5px;
+		padding-left: 5px;
+		padding-top: 10px;
+		padding-bottom: 0px;
+
+		border-radius: 20px;
+
+		margin-right: 58px;
+
+
+		width: 120px;
+		height: 28px;
+	}
+
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+
+
+}

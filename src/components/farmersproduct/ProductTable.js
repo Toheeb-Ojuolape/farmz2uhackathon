@@ -3,7 +3,7 @@ import Menu from "./Menu"
 
 
 
-class TableProduct extends Component {
+class ProductTable extends Component {
     render(){
         const { toptableProduct } = this.props
         const toptableProductList = toptableProduct.map(toptableProduct =>{
@@ -48,4 +48,4 @@ class TableProduct extends Component {
     }
 }
 
-export default TableProduct
+export default ProductTable

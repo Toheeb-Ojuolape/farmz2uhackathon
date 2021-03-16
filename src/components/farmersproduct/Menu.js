@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
-import menu from "../menu.svg"
+import menu from "./../../images/menu.svg"
 // import Edit from "../edit-product.png"
 // import Delete from "../delete.svg"
 // import Add from "../addstock.svg"
