@@ -1,4 +1,4 @@
-import React , {useState,useEffect} from "react";
+import React , {useState} from "react";
 
 import './navmobile.css';
 
@@ -33,7 +33,7 @@ function MobileNav(){
          <div className="row">
 		 <div className="column19">
 		 <a href="/">
-		 <img src={farmz2u_logo} data-test="farmz2u-logo" />
+		 <img src={farmz2u_logo} alt="" data-test="farmz2u-logo" />
 		 </a>
 		 </div>
 		 <div className="column20">
@@ -52,7 +52,7 @@ function MobileNav(){
 						  	<img className="search" alt="" src={search} data-test="search-icon" />
 
 							 
-							  <a href="javascript:void(0)" 
+							  <a href="/" 
 							  	 className="closebtn"
 							  	 data-test='close-menu'
 							  	 onClick={closeNav}
@@ -84,8 +84,8 @@ function MobileNav(){
 							    	Report
 							    </a>
 
-							    <a href="#" data-test='settings-menu'>Settings</a>
-							    <a href="#" data-test='notification-menu'>Notifications</a>
+							    <a href="/settings" data-test='settings-menu'>Settings</a>
+							    <a href="/notifications" data-test='notification-menu'>Notifications</a>
 
 
 								<h3 className="logout"> Log out 
