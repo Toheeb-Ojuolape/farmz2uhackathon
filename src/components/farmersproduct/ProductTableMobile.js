@@ -1,8 +1,6 @@
 
 import React , {useState,useEffect} from "react";
 import {Link} from 'react-router-dom';
-
-
 import cocoa from './../../images/cocoa-reduced 2.png';
 import addproduct_icon from './../../images/FAB.svg';
 

@@ -1,0 +1,98 @@
+.Order {
+    margin-top:18px
+  }
+
+.orderTypes{
+    float:left;
+    margin-top:40px;
+    width:17%;
+  }
+
+
+  .table {
+    content: "";
+    display: table;
+    clear: both;
+    background-color:#298525;
+    width:100%;
+    color: white;
+  }
+
+  .all{
+    border-radius:60px;
+    background:#fbe4c4;
+    padding:8px;
+    text-align: center;
+    color:orange;
+    width:130px;
+}
+
+
+  .tableColumn{
+    float:left;
+    padding:16px;
+    width:12%;
+    font-size:13px
+  }
+
+  .columnPagination{
+    float:left;
+    width:95%;
+  }
+
+  .columnPaginationcontrol{
+    float:left;
+    width:5%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .laptop {
+      visibility: hidden;
+      display: none;
+    }
+    }
+    
+    
+@media screen and (min-width: 600px) {
+.phone {
+visibility: hidden;
+display: none;
+      }
+      }
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+      }
+
+.table {
+ content: "";
+ display: table;
+ clear: both;
+ background-color:#298525;
+ width:100%;
+ color: white;
+      }
+
+.paginationText{
+font-size:15px;
+color:#298525;
+font-weight:600
+      }
+
+.tables {
+ content: "";
+ display: table;
+ clear: both;
+ background-color:#F8F8F8;
+ width:100%;
+ color: black;
+      }
+
+.columnMenu{
+float:left;
+padding-top:18px;
+width:1%;
+margin-top:-15px;
+      }

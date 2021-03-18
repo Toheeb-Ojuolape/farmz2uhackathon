@@ -10,7 +10,7 @@ const Modal = ({ handleClose, show, children }) => {
         {/* <button type="button" onClick={handleClose}>
           Close
         </button> */}
-        <p className="completeOrder"> Complete Order</p>
+        <p className="completeOrder" onClick={handleClose}> Complete Order</p>
         <p className="deleteOrder" onClick={handleClose}>Delete Order</p>
       </section>
     </div>

@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
-import logout from "./../../images/log-out.svg";
+import Navbar from './Navbar'
 import Table from "./Table";
-import Fab from '@material-ui/core/Fab';
 import './OrderMobile.css'
 import OrderCards from './OrderCards'
+import './Order.css'
+import prevarrow from './../../images/previous arrow.svg'
+import nextarrow from  './../../images/next-arrow.svg'
 
 
 
@@ -96,64 +97,19 @@ class Order extends Component {
     return (
       <div className="Order">
         <div className="pushUp">
-          <nav className="laptop nav-wrapper orange lighten-1">
-            <div className="container">
-              <ul className="center">
-                <li>
-                  {" "}
-                  <NavLink to="/">
-                    <span>Home</span>
-                  </NavLink>
-                </li>
-                <li>
-                  {" "}
-                  <NavLink to="/orders">
-                    {" "}
-                    <span className="activeMenu">
-                      Orders<span className="number">(12)</span>
-                    </span>
-                  </NavLink>
-                </li>
-                <li>
-                  {" "}
-                  <NavLink to="/products">
-                    <span>
-                      {" "}
-                      Products <span className="number">(52)</span>
-                    </span>
-                  </NavLink>
-                </li>
-                <li>
-                  {" "}
-                  <NavLink to="/stock"> Stock</NavLink>
-                </li>
-                <li>
-                  {" "}
-                  <NavLink to="/report"> Report</NavLink>
-                </li>
-                <li className="logOut">
-                  <NavLink to="/logout">
-                    Logout{" "}
-                    <span className="logouticon">
-                      <img src={logout} alt="logout" />
-                    </span>
-                  </NavLink>
-                </li>
-              </ul>
-            </div>
-          </nav>
+          <Navbar />
         </div>
         <div className="laptop dashboard">
           <p className="summary">Orders</p>
           <span className="subtitle">12 orders found</span>
           <div className="row">
-            <div className="column12">
+            <div className="orderTypes">
               <div className="all">All Orders</div>
             </div>
-            <div className="column12">
+            <div className="orderTypes">
               <div className="pending">Pending Orders</div>
             </div>
-            <div className="column12">
+            <div className="orderTypes">
               <div className="completed">Completed</div>
             </div>
           </div>
@@ -162,31 +118,27 @@ class Order extends Component {
             toptableRow={this.state.toptableRow}
           />
           <div className="row">
-            <div className="column14">
-              <p className="showing">Showing 1-6 of 500</p>
+            <div className="columnPagination">
+              <p className="paginationText">Showing 1-6 of 500</p>
             </div>
-            <div className="column15">
+            <div className="columnPaginationControl">
             <div className="pagination-control"> 
           <div className="pagination">
           <div className="arrowprev">
-          <Fab size="small" disabled>
-  <a href="#1">	&lt;</a>
-  </Fab>
+          <img src={prevarrow} alt="" />
   </div>
   <div className="number">
   <a href="1"><b>1</b></a>
   </div>
   <div className="arrownext">
-  <Fab size="small" disabled>
-  <a href="#3">&gt;</a>
-  </Fab>
+  <img src={nextarrow} alt="" />
   </div>
 </div>
 					</div>
             </div>
           </div>
         </div>
-        <div className="OrderMobile">
+        <div className="phone OrderMobile">
         <p className="ordermobile">Orders</p>
         <p className="ordernumber"> 12 orders found</p>
         <div className="row">

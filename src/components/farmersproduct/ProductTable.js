@@ -26,7 +26,7 @@ class ProductTable extends Component {
      const tableProductList = tableProduct.map(tableProduct =>{
          return(
             <div className="tableProduct" key={tableProduct.id}>
-            <div className="tabless"> 
+            <div className="productTable"> 
            <div className="column17">{tableProduct.product}</div>
            <div className="column17">{tableProduct.picture}</div>
            <div className="column17">{tableProduct.stock}</div>

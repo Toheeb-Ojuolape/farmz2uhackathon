@@ -26,7 +26,7 @@ class Table extends Component {
      const tableLists = tableRow.map(tableRow =>{
          return(
 
-            <div key={tableRow.id}>
+            <div className="phone" key={tableRow.id}>
                 <Modal show={this.state.show} handleClose={this.hideModal}>
           <p className="modalTitle">Order Number</p>
           <p className="modalValue">{tableRow.order}</p>

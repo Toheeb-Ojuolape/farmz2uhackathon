@@ -5,7 +5,8 @@ import ProductTableMobile from './ProductTableMobile';
 import Navbar from "./Navbar"
 import './farmerproduct.css';
 import './farmerproductmobile.css';
-import Fab from '@material-ui/core/Fab';
+import prevarrow from './../../images/previous arrow.svg'
+import nextarrow from './../../images/next-arrow.svg'
 
 import addproduct_icon from './../../images/add-product.svg';
 
@@ -109,17 +110,13 @@ import addproduct_icon from './../../images/add-product.svg';
 					<div className="pagination-control"> 
           <div className="pagination">
           <div className="arrowprev">
-          <Fab size="small" disabled>
-  <a href="#1">	&lt;</a>
-  </Fab>
+          <img src={prevarrow} alt="" />
   </div>
   <div className="number">
   <a href="1"><b>1</b></a>
   </div>
   <div className="arrownext">
-  <Fab size="small" disabled>
-  <a href="#3">&gt;</a>
-  </Fab>
+  <img src={nextarrow} alt="" />
   </div>
 </div>
 					</div>
@@ -141,17 +138,13 @@ import addproduct_icon from './../../images/add-product.svg';
 					<div className="pagination-control"> 
           <div className="pagination">
           <div className="arrowprev">
-          <Fab size="small" disabled>
-  <a href="#1">	&lt;</a>
-  </Fab>
+          <img src={prevarrow} alt="" />
   </div>
   <div className="number">
   <a href="1"><b>1</b></a>
   </div>
   <div className="arrownext">
-  <Fab size="small" disabled>
-  <a href="#3">&gt;</a>
-  </Fab>
+  <img src={nextarrow} alt="" />
   </div>
 </div>
 					</div>

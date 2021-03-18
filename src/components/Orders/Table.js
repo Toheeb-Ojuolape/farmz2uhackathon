@@ -1,4 +1,5 @@
 import React,{Component} from 'react'
+import Menu from './Menu'
 
 
 
@@ -9,14 +10,14 @@ class Table extends Component {
             return (
                 <div className="tableRow" key={toptableRow.id}>
                  <div className="table"> 
-                <div className="column13">{toptableRow.order}</div>
-                <div className="column13">{toptableRow.product}</div>
-                <div className="column13">{toptableRow.name}</div>
-                <div className="column13">{toptableRow.delivery}</div>
-                <div className="column13">{toptableRow.phone}</div>
-                <div className="column13">{toptableRow.zone}</div>
-                <div className="column13">{toptableRow.invoice}</div>
-                <div className="column13">{toptableRow.status}</div>
+                <div className="tableColumn">{toptableRow.order}</div>
+                <div className="tableColumn">{toptableRow.product}</div>
+                <div className="tableColumn">{toptableRow.name}</div>
+                <div className="tableColumn">{toptableRow.delivery}</div>
+                <div className="tableColumn">{toptableRow.phone}</div>
+                <div className="tableColumn">{toptableRow.zone}</div>
+                <div className="tableColumn">{toptableRow.invoice}</div>
+                <div className="tableColumn">{toptableRow.status}</div>
                 </div>
                
                </div>
@@ -28,14 +29,15 @@ class Table extends Component {
          return(
             <div className="tableRow" key={tableRow.id}>
             <div className="tables"> 
-           <div className="column13">{tableRow.order}</div>
-           <div className="column13">{tableRow.product}</div>
-           <div className="column13">{tableRow.name}</div>
-           <div className="column13">{tableRow.delivery}</div>
-           <div className="column13">{tableRow.phone}</div>
-           <div className="column13">{tableRow.zone}</div>
-           <div className="column13">{tableRow.invoice}</div>
-           <div className="column13">{tableRow.status}</div>
+           <div className="tableColumn">{tableRow.order}</div>
+           <div className="tableColumn">{tableRow.product}</div>
+           <div className="tableColumn">{tableRow.name}</div>
+           <div className="tableColumn">{tableRow.delivery}</div>
+           <div className="tableColumn">{tableRow.phone}</div>
+           <div className="tableColumn">{tableRow.zone}</div>
+           <div className="tableColumn">{tableRow.invoice}</div>
+           <div className="tableColumn">{tableRow.status}</div>
+           <div className="columnMenu"><Menu /></div>
            </div>
           
           </div>

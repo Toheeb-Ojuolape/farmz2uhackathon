@@ -182,27 +182,17 @@
 	}
 
 	.farmers-products .farmers-products-info-mobile .product-details .instock{
-
-		color:  #298525;
-		font-family: Montserrat-Regular;
-		font-size: 13px;
-		text-align: center;
-
-		background: #cee1cd 0% 0% no-repeat padding-box;
-
-		padding-right: 5px;
-		padding-left: 5px;
-		padding-top: 10px;
-		padding-bottom: 0px;
-
-		border-radius: 20px;
-
-		margin-right: 58px;
-
-
-		width: 120px;
-		height: 28px;
-	}
+			border-radius:60px;
+			background:#b9d8b8;
+			padding:10px;
+			color:#298525;
+			padding-left:20px;
+			position:relative;
+			height:30px;
+			font-size:10px;
+			width:100px;
+			margin-top:-1px
+		}
 
 
 

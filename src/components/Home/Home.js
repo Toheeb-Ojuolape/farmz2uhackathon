@@ -109,7 +109,7 @@ class Home extends Component {
             <p className="summary">Summary</p>
             <span className="subtitle">Last 10 days</span>
           </div>
-          <div className="column6">
+          <div className="selectForm">
             <SelectForm />
           </div>
         </div>
@@ -118,7 +118,7 @@ class Home extends Component {
         </div>
         <div>
           <div className="dashboard row">
-            <div className="column9">
+            <div className="summarySection">
               <p className="summary">Sales Report</p>
               <span className="subtitle">Last 10 days</span>
               <div className="card grey lighten-3">Content coming from Api</div>

@@ -5,7 +5,6 @@ import menu from "./../../images/menu.svg"
 import Edit from "./../../images/editproduct.svg"
 import Delete from "./../../images/delete.svg"
 import Add from "./../../images/addstock.svg"
-import menuMobile from './../../images/menu.png'
 
 export default function SimpleMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -22,9 +21,6 @@ export default function SimpleMenu() {
     <div>
       <p className="laptop" onClick={handleClick}>
         <img src={menu} alt="" />
-      </p>
-      <p className="phone" onClick={handleClick}>
-        <img src={menuMobile} alt="" />
       </p>
       <Menu
         id="simple-menu"

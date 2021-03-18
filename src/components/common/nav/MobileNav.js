@@ -31,7 +31,7 @@ function MobileNav(){
 
 		<div className="phone menu">
          <div className="row">
-		 <div className="column19">
+		 <div className="columnmobileNav">
 		 <a href="/">
 		 <img src={farmz2u_logo} alt="" data-test="farmz2u-logo" />
 		 </a>
@@ -98,7 +98,7 @@ function MobileNav(){
 							</div>
 
 							
-							<span onClick={openNav} data-test='open-menu'><img src={hamburger} alt="" /></span>
+							<span className="openMenu" onClick={openNav} data-test='open-menu'><img src={hamburger} alt="" /></span>
 			    </div>
 
 		</div>

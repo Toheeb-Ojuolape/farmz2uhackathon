@@ -333,3 +333,27 @@ a {
 	color:inherit;
 	text-decoration: none
 }
+
+@media screen and (max-width: 600px) {
+	.laptop {
+	  visibility: hidden;
+	  display: none;
+	}
+	}
+	
+	
+	@media screen and (min-width: 600px) {
+	  .phone {
+		visibility: hidden;
+		display: none;
+	  }
+	  }
+
+	  .productTable {
+		content: "";
+		display: table;
+		clear: both;
+		background-color:#F8F8F8;
+		width:100%;
+		color: black;
+	  }
