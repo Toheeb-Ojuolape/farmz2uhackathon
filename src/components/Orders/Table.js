@@ -9,16 +9,18 @@ class Table extends Component {
         const tableList = toptableRow.map(toptableRow =>{
             return (
                 <div className="tableRow" key={toptableRow.id}>
-                 <div className="table"> 
-                <div className="tableColumn">{toptableRow.order}</div>
-                <div className="tableColumn">{toptableRow.product}</div>
-                <div className="tableColumn">{toptableRow.name}</div>
-                <div className="tableColumn">{toptableRow.delivery}</div>
-                <div className="tableColumn">{toptableRow.phone}</div>
-                <div className="tableColumn">{toptableRow.zone}</div>
-                <div className="tableColumn">{toptableRow.invoice}</div>
-                <div className="tableColumn">{toptableRow.status}</div>
-                </div>
+                 <table> 
+                 <tr className="table">
+                <th className="orderRow">{toptableRow.order}</th>
+                <th className="productRow">{toptableRow.product}</th>
+                <th className="nameRow">{toptableRow.name}</th>
+                <th className="deliveryRow">{toptableRow.delivery}</th>
+                <th className="phoneRow">{toptableRow.phone}</th>
+                <th className="zoneRow">{toptableRow.zone}</th>
+                <th className="invoiceRow">{toptableRow.invoice}</th>
+                <th className="statusRow">{toptableRow.status}</th>
+                </tr>
+                </table>
                
                </div>
             )
@@ -28,23 +30,24 @@ class Table extends Component {
      const tableLists = tableRow.map(tableRow =>{
          return(
             <div className="tableRow" key={tableRow.id}>
-            <div className="tables"> 
-           <div className="tableColumn">{tableRow.order}</div>
-           <div className="tableColumn">{tableRow.product}</div>
-           <div className="tableColumn">{tableRow.name}</div>
-           <div className="tableColumn">{tableRow.delivery}</div>
-           <div className="tableColumn">{tableRow.phone}</div>
-           <div className="tableColumn">{tableRow.zone}</div>
-           <div className="tableColumn">{tableRow.invoice}</div>
-           <div className="tableColumn">{tableRow.status}</div>
-           <div className="columnMenu"><Menu /></div>
-           </div>
-          
+            <table>
+            <tr className="tableValues">
+           <td className="orderValues">{tableRow.order}</td>
+           <td className="productValues">{tableRow.product}</td>
+           <td className="nameValues">{tableRow.name}</td>
+           <td className="deliveryValues">{tableRow.delivery}</td>
+           <td className="phoneValues">{tableRow.phone}</td>
+           <td className="zoneValues">{tableRow.zone}</td>
+           <td className="invoiceValues">{tableRow.invoice}</td>
+           <td className="statusValues">{tableRow.status}</td>
+           <td><Menu /></td>
+           </tr>
+           </table>
           </div>
          )
      })
         return(
-            <div className="table">
+            <div className="orderTable">
                 {tableList}
                 {tableLists}
             </div>

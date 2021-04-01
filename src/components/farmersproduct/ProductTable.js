@@ -4,6 +4,16 @@ import Menu from "./Menu"
 
 
 class ProductTable extends Component {
+     
+    constructor(props){
+        super(props);
+        this.state = {
+            items: [],
+            isLoaded:false
+        }
+    }
+
+
     render(){
         const { toptableProduct } = this.props
         const toptableProductList = toptableProduct.map(toptableProduct =>{

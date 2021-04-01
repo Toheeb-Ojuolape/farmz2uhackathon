@@ -34,18 +34,13 @@ nav .active{
 
 	background: #FFFFFF 0% 0% no-repeat padding-box;
 	border-radius: 28px;
-
 	height: 20px;
 	width: 100px;
-
-
 	padding-right: 5px;
 	padding-left: 30px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-
 	color: #F2A133;
-
 	margin-left: -5px;
 	margin-right: 35px;
 	margin-top: 10px;
@@ -70,9 +65,7 @@ nav .logout-icon{
 }
 
 
-@media only screen and (max-width: 880px) {
-
-
+@media only screen and (max-width: 990px) {
 	nav{
 
 		display: none;

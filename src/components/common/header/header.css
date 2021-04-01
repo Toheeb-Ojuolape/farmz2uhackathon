@@ -1,141 +1,273 @@
-header{
-
-	margin-top:-10px;
-	margin-right: -20px;
-	margin-left: -20px;
-	margin-bottom: -45px;
-
-	background-image: url('./../../../images/top-bg.png');
-	background-repeat: no-repeat;
-
-	padding-right: 40px;
-	padding-left: 70px;
-	padding-top: 30px;
-
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1201px) {
+	.phoneVisible {
+		visibility: hidden;
+		display: none;
+	  }
+	header{
+		margin-top:-10px;
+		margin-bottom: -45px;
+		background-image: url('./../../../images/top-bg.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding-left: 70px;
+		padding-top: 30px;
+	}
+	
+	header .header-flex {
+	  display: flex;
+	}
+	
+	
+	header .header-flex .farmz2u-logo{
+	
+		margin-right: 20px;
+		margin-top: 7px;
+	
+		
+	
+		width:160px;
+		height: 50px;	
+	
+	}
+	
+	/*header .header-flex .search-bar{
+		flex-grow: 5;
+	}*/
+	
+	header .header-flex .search-bar input[type=text]::placeholder {
+	
+		color: #FFFFFF;
+		font: normal normal medium 14px/18px Montserrat-ExtraLight;
+		font-family: Montserrat-Regular;
+	
+	}
+	
+	header .header-flex .search-bar input[type=text]{
+	
+		border-radius: 26px;
+		border:none;
+		padding-left: 20px;
+		color: #FFFFFF;
+	
+		width: 472px;
+		height: 51px;
+	
+		margin-right: 200px;
+	
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		border-radius: 26px;
+		/*opacity: 0.4;*/
+		/*backdrop-filter: blur(10px);*/
+		
+	}
+	
+	
+	
+	header .header-flex .search-bar img{
+		position: relative;
+		top:5px;
+		right: 260px;
+		margin-top:0px
+	}
+	
+	
+	
+	
+	header .header-flex .settings-icon{
+	
+		width:55px;
+		height: 55px;
+	
+		border-radius: 50%;
+	
+		position: relative;
+		top:-2px;
+	
+		margin-right: 3%;
+		
+	
+	}
+	
+	header .header-flex .settings-icon img{
+	
+		position: relative;
+		left:15px;
+		top: 13px;
+	}
+	
+	header .header-flex .bell-icon{
+		width:55px;
+		height: 55px;
+		border-radius: 50%;
+		position: relative;
+		top: -2px;
+	
+	
+		
+	}
+	
+	header .header-flex .bell-icon img{
+	
+		position: relative;
+		left:15px;
+		top: 10px;
+	
+	
+	}
+	
+	
+	
+	header .header-flex .profile-icon img{
+		position: relative;
+		left: 50%;
+		top: -16px;
+	
+		height: 100px;
+		
+	}
+	
+	
+	header .header-flex .menu-toggle{
+	
+		display: none;
+	}
 	
 
 }
 
-header .header-flex {
-  display: flex;
-}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 
-
-header .header-flex .farmz2u-logo{
-
-	margin-right: 20px;
-	margin-top: 7px;
-
+	header{
+		margin-top:-10px;
+		margin-bottom: -45px;
+		background-image: url('./../../../images/top-bg.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding-left: 70px;
+		padding-top: 30px;
+	}
 	
-
-	width:160px;
-	height: 50px;	
-
-}
-
-/*header .header-flex .search-bar{
-	flex-grow: 5;
-}*/
-
-header .header-flex .search-bar input[type=text]::placeholder {
-
-	color: #FFFFFF;
-	font: normal normal medium 14px/18px Montserrat-ExtraLight;
-	font-family: Montserrat-Regular;
-}
-
-header .header-flex .search-bar input[type=text]{
-
-	border-radius: 26px;
-	border:none;
-
-	padding-left: 20px;
-	color: #FFFFFF;
-
-	width: 472px;
-	height: 51px;
-
-	margin-right: 200px;
-
-	background: #FFFFFF 0% 0% no-repeat padding-box;
-	border-radius: 26px;
-	/*opacity: 0.4;*/
-	/*backdrop-filter: blur(10px);*/
+	header .header-flex {
+	  display: flex;
+	}
 	
-}
-
-
-
-header .header-flex .search-bar img{
-
-	position: relative;
-	top:5px;
-	right: 260px;
-
-
-}
-
-
-
-header .header-flex .settings-icon{
-
-	width:55px;
-    height: 55px;
-
-    border-radius: 50%;
-
-    position: relative;
-    top:5px;
-
-    margin-right: 20px;
 	
-
-}
-
-header .header-flex .settings-icon img{
-
-	position: relative;
-	left:15px;
-	top: 13px;
-}
-
-header .header-flex .bell-icon{
-
-	width:55px;
-    height: 55px;
-
-    border-radius: 50%;
-
-    position: relative;
-    top: 5px;
-
-
+	header .header-flex .farmz2u-logo{
+		margin-right: 20px;
+		margin-top: 7px;
+		width:160px;
+		height: 50px;	
+	}
 	
-}
-
-header .header-flex .bell-icon img{
-
-	position: relative;
-	left:15px;
-	top: 10px;
-
-
-}
-
-
-
-header .header-flex .profile-icon img{
-	position: relative;
-	right: -50px;
-	top: -10px;
+	/*header .header-flex .search-bar{
+		flex-grow: 5;
+	}*/
 	
-
-	height: 100px;
+	header .header-flex .search-bar input[type=text]::placeholder {
 	
+		color: #FFFFFF;
+		font: normal normal medium 14px/18px Montserrat-ExtraLight;
+		font-family: Montserrat-Regular;
+	
+	}
+	
+	header .header-flex .search-bar input[type=text]{
+	
+		border-radius: 26px;
+		border:none;
+		padding-left: 20px;
+		color: #FFFFFF;
+	
+		width: 472px;
+		height: 51px;
+	
+		margin-right: 200px;
+	
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		border-radius: 26px;
+		/*opacity: 0.4;*/
+		/*backdrop-filter: blur(10px);*/
+		
+	}
+	
+	
+	
+	header .header-flex .search-bar img{
+		position: relative;
+		top:5px;
+		right: 260px;
+		margin-top:0px
+	}
+	
+	
+	
+	
+	header .header-flex .settings-icon{
+	
+		width:55px;
+		height: 55px;
+	
+		border-radius: 50%;
+	
+		position: relative;
+		top:-2px;
+	
+		margin-right: 3%;
+		
+	
+	}
+	
+	header .header-flex .settings-icon img{
+	
+		position: relative;
+		left:15px;
+		top: 13px;
+	}
+	
+	header .header-flex .bell-icon{
+		width:55px;
+		height: 55px;
+		border-radius: 50%;
+		position: relative;
+		top: -2px;
+	
+	
+		
+	}
+	
+	header .header-flex .bell-icon img{
+	
+		position: relative;
+		left:15px;
+		top: 10px;
+	
+	
+	}
+	
+	
+	
+	header .header-flex .profile-icon img{
+		position: relative;
+		left: 50%;
+		top: -16px;
+	
+		height: 100px;
+		
+	}
+	
+	
+	header .header-flex .menu-toggle{
+	
+		display: none;
+	}
 }
 
 
-header .header-flex .menu-toggle{
-
-	display: none;
-}
+@media only screen and (max-width: 1200px) {
+	.laptop {
+		visibility: hidden;
+		display: none;
+	  }
+	}

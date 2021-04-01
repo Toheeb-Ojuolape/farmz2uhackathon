@@ -1,39 +1,48 @@
+
+.orders{
+  font-weight:600;
+  font-size:20px;
+  margin-bottom:2px;
+  padding-left:35px
+}
+
+.orderSubtitle{
+  font-weight:270;
+  padding-top:-10px;
+  margin-bottom:0px;
+  font-size:13px;
+  padding-left:35px
+}
+
+
+
+.ordersButton {
+  background-color: white;
+  margin:23px 29px 21px 29px;
+}
+
+
+
 .Order {
     margin-top:18px
   }
 
-.orderTypes{
-    float:left;
-    margin-top:40px;
-    width:17%;
+.orderType{
+    padding-left:50px;
   }
 
 
-  .table {
-    content: "";
-    display: table;
-    clear: both;
-    background-color:#298525;
-    width:100%;
-    color: white;
-  }
 
   .all{
     border-radius:60px;
     background:#fbe4c4;
-    padding:8px;
+    padding:8px 4px 8px 4px;
+    cursor:pointer;
     text-align: center;
     color:orange;
-    width:130px;
+    width:100px;
 }
 
-
-  .tableColumn{
-    float:left;
-    padding:16px;
-    width:12%;
-    font-size:13px
-  }
 
   .columnPagination{
     float:left;
@@ -45,7 +54,7 @@
     width:5%;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1200px) {
     .laptop {
       visibility: hidden;
       display: none;
@@ -53,7 +62,7 @@
     }
     
     
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1201px) {
 .phone {
 visibility: hidden;
 display: none;
@@ -66,14 +75,133 @@ display: table;
 clear: both;
       }
 
+      table {
+        width: 100%;
+        font-size:14px;
+        text-decoration:none
+      }
+      
+      td, th {
+        text-align: left;
+        padding: 8px;
+        font-size:13px;
+        text-decoration:none
+      }
+
+      .nameRow{
+        width:12%;
+        font-weight:300;
+      }
+
+      .nameValues{
+        width:12%
+      }
+
+      .deliveryRow{
+        padding:0px 10px 0px 0px;
+        width:15%;
+        font-weight:300;
+      }
+
+      .deliveryValues{
+        
+        width:15%
+      }
+
+      .statusRow{
+        padding-left:0px;
+        font-weight:300;
+        width:15%
+      }
+
+      .statusValues{
+        width:10%
+      }
+
+      .phoneRow{
+        padding:0px 10px 0px 0px;
+        width:11%;
+        font-weight:300;
+      }
+
+      .phoneValues{
+        width:11%
+      }
+
+      .zoneRow{
+        padding:0px 0px 0px 10px;
+        width:8%;
+        font-weight:300;
+      }
+
+      .zoneValues{
+        padding:0px 0px 0px 20px;
+        width:8%
+      }
+
+      .invoiceRow{
+        font-weight:300;
+        width:15%
+      }
+
+      .invoiceValues{
+        width:15%;
+        padding:0px 0px 0px 24px;
+      }
+
+      .orderRow{
+        font-weight:300;
+        width:9%;
+      }
+
+      .orderValues{
+        width:9%;
+      }
+
+      .productRow{
+        font-weight:300;
+        width:15%
+      }
+
+      .productValues{
+        width:15%
+      }
+
+
+      
+
 .table {
+  display:flex;
  content: "";
  display: table;
+ font-weight:100;
+ border-radius:10px;
+ padding:16px;
  clear: both;
  background-color:#298525;
- width:100%;
+ width:93%;
+ margin-left:30px;
  color: white;
       }
+
+      .tableValues {
+        display:flex;
+       content: "";
+       display: table;
+       font-weight:500;
+       border-radius:10px;
+       padding:16px;
+       clear: both;
+       background-color:#F8F8F8;
+       width:93%;
+       margin-left:30px;
+       color: #414141;
+            }
+
+      
+
+      
+
 
 .paginationText{
 font-size:15px;
@@ -81,14 +209,6 @@ color:#298525;
 font-weight:600
       }
 
-.tables {
- content: "";
- display: table;
- clear: both;
- background-color:#F8F8F8;
- width:100%;
- color: black;
-      }
 
 .columnMenu{
 float:left;

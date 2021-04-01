@@ -96,23 +96,17 @@ class Order extends Component {
   render() {
     return (
       <div className="Order">
-        <div className="pushUp">
+        <div className="pushUp laptop">
           <Navbar />
         </div>
         <div className="laptop dashboard">
-          <p className="summary">Orders</p>
-          <span className="subtitle">12 orders found</span>
-          <div className="row">
-            <div className="orderTypes">
-              <div className="all">All Orders</div>
-            </div>
-            <div className="orderTypes">
-              <div className="pending">Pending Orders</div>
-            </div>
-            <div className="orderTypes">
-              <div className="completed">Completed</div>
-            </div>
-          </div>
+          <p className="orders">Orders</p>
+          <span className="orderSubtitle">12 orders found</span>
+          <ul className="ordersButton">
+           <li className="all">All Orders</li>
+           <li className="orderType">Pending Orders</li>
+           <li className="orderType">Completed</li>
+          </ul>
           <Table
             tableRow={this.state.tableRow}
             toptableRow={this.state.toptableRow}

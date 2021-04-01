@@ -1,3 +1,26 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top:4px;
+  overflow: hidden;
+  background-color:#f5a623;
+}
+li {
+  float: left;
+  padding:10px;
+  font-size:14px
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
 .Home {
   margin-top:18px
 }
@@ -8,7 +31,7 @@
 
 .selectForm{
   float:left;
-  width:20%;
+  width:30%;
 }
 
 .topsells{
@@ -18,15 +41,27 @@
   }
 
   .topsellscard{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     transition: 0.3s;
-    width: 90%;
+    width: 100%;
     border-radius: 5px;
-    padding:2px;
+    padding:0px;
     margin:14px;
-    margin-left:19px;
+    margin-left:13px;
     margin-bottom:20px;
   }
+
+  .topsellscardMobile{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+    padding:7% 7% 7% 20px;
+    margin:14px;
+    margin-left:13px;
+    margin-bottom:20px;
+  }
+
 
   
   .profit{
@@ -37,7 +72,7 @@
   
   .sale{
     font-size:15px;
-    margin-bottom:0px;
+    margin-bottom:10px;
     color:black;
   }
   
@@ -46,29 +81,32 @@
     font-weight:600;
     color:green;
     margin-top:0px;
-    margin-bottom:0px;
+    margin-bottom:0px
   }
   
+ 
+
   .amountIncome{
-    font-size:45px;
-    font-weight:500;
+    font-size:40px;
+    font-weight:400;
     color:white;
     margin-top:0px;
-    margin-bottom:0px;
+    padding-top:10px;
+    margin-bottom:0px
   }
   
   .amountProfit{
     font-size:20px;
     font-weight:600;
     color:white;
-    margin-top:0px;
+    margin-top:10px;
     margin-bottom:0px;
   }
   
   .added{
     font-size: 10px;
     font: weight 200px;
-    color:green;
+    color:#707070;
     margin-top:0px;
     padding-bottom:7px;
   }
@@ -77,6 +115,7 @@
     font-size: 10px;
     font: weight 200px;
     color:white;
+    opacity:0.4;
     margin-top:0px;
     padding-bottom:7px;
   }
@@ -84,17 +123,18 @@
   .cardprofit{
     padding:7px;
     padding-left:22px;
-    width:201px;
+    margin-right:50px;
+    width:115%;
     background-color:#298525;
-    height:109px;
+    height:98px;
     border-radius:15px;
   }
   
   .cardsales{
     padding:7px;
     padding-left:22px;
-    width:201px;
-    height:109px;
+    width:110%;
+    height:98px;
     background-color:#F3F3F3;
     border-radius:15px;
   }
@@ -102,125 +142,207 @@
   .topselling{
     font-size:20px;
     font-weight:600;
-    padding-left:24px;
+    opacity:0.6;
+    padding:30% 10% 0px 0px;
   }
   
   .cardlast{
     padding:7px;
     padding-left:22px;
-    width:275px;
-    height:130px;
+    width:240px;
+    height:120px;
     border-radius:15px;
     background-color:#F2A133;
   }
 
   .summaryTitle {
     float:left;
-    width:50%;
-    margin-left:24px;
+    width:54%;
+    margin-left:4%;
   }
 
   .columnCard{
     float:left;
-    width:17%;
+    width:12%;
+    margin:0px 70px 0px 5px
   }
+
 
   .columnLast{
     float:left;
-    padding-left:60px;
-    width:30%;
+    padding-left:1%;
+    margin:0px 80px 0px -10px;
+    width:10%;
   }
 
   .summarySection{
     float:left;
-    width:60%;
-    padding-left:10px
+    width:68%;
+    padding-left:3%
+  }
+
+
+  .graph{
+    width:97%;
+    height:100%;
+    background:grey;
+    padding:50% 0px 50% 0px;
+    text-align:center
   }
   
-  .topsellingSection{
-    float:left;
-    margin-top:63px;
-    padding-left:140px;
-    width:40%;
-  }
 
 
   
 .topsellsImage {
     float:left;
-    width:20%;
+    width:25%;
     margin-top:15px;
-    margin-left:10px;
+    margin-left:0%;
   }
 
   .topsellsName {
     float:left;
-    width:60%;
-    padding-left:30px;
+    width:50%;
+    padding-left:20px;
     margin-top:5px;
   }
 
   .topsellsTrophy {
     float:left;
-    width:10%;
-    margin-top:30px;
-    margin-left:0px
+    width:1%;
+    margin:30px 1% 1% 3%
   }
 
   .subtitle{
-    font-weight: 300;
+    font-weight:270;
     padding-top:-10px;
-    margin-bottom:0px
+    margin-bottom:0px;
+    font-size:13px
   }
 
   .buttonStock{
     border-radius:60px;
     background:#b9d8b8;
-    padding:7px;
+    text-align:center;
+    padding:7px 7px 7px 4px;
     color:#298525;
-    padding-left:20px;
     position:relative;
-    height:30px;
-    font-size:10px;
-    width:100px;
-    margin-top:-1px
+    height:10px;
+    font-size:9px;
+    width:70px;
+    margin-top:3px
+}
+
+  .buttonStockOut{
+    border-radius:60px;
+    background:#ffd5d5;
+    text-align:center;
+    padding:7px 7px 7px 4px;
+    color:red;
+    position:relative;
+    height:10px;
+    font-size:9px;
+    width:70px;
+    margin-top:3px
 }
   
 
 .salesReport{
- padding-left:24px;
+ padding-left:10px;
  font-weight:600;
  font-size:20px;
  margin-bottom:0px
 }
 
-.salesDays{
-    padding-left:24px;
-    font-size:14px;
-    margin-top:0px
+.summary{
+  font-weight:600;
+  font-size:20px;
+  margin-bottom:0px
+ }
+
+
+.dashboard{
+  margin:30px 30px -10px
 }
 
-@media screen and (max-width: 600px) {
+.salesDays{
+    padding-left:10px;
+    font-size:14px;
+    margin-top:0px;
+    font-weight:300
+}
+
+ @media screen and (max-width: 1200px) {
   .laptop {
     visibility: hidden;
     display: none;
   }
+
   }
 
-  @media screen and (min-width: 600px) {
-    .phone {
+  @media screen and (min-width: 1201px) {
+    .phoneVisible {
       visibility: hidden;
       display: none;
     }
+
+    .active {
+      background-color:white;
+      margin-top:5px;
+      padding:10px;
+      padding-right:30px;
+      padding-left:20px;
+      text-align:center;
+      color:#f5a623;
+      border-radius:30px
     }
+    } 
 .card{
-   width:845px;
-   height:381px;
-   padding:350px;
+   width:50px;
+   height:30px;
+   padding:30px;
    box-shadow:2px;
     }
-    
+
+  .columnGraph{
+    float:left;
+    width:60%;
+    position:relative
+  }
+  
+  .columnTopselling{
+    float:left;
+    padding-left:1%;
+    margin:0px 0px 0px 0px;
+    width:25%;
+  }
+
+
+
  .cards{
-   margin:40px;
+   margin:20px 60px
     }
+
+    .logOut{
+     padding-left:33%;
+     margin-top:-8px;
+    }
+
+    .logouticon{
+      padding-left:28px;
+      margin-right:-20px;
+      padding-top:30px;
+      padding-bottom:-30px;
+    }
+
+    .container{
+      text-align:center;
+      margin-left:200px;
+
+    }
+    
+.number{
+  font-size:6px;
+  padding: 0px 0px 0px 0px
+}
 

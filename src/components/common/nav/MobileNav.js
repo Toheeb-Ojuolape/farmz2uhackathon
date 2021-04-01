@@ -29,7 +29,7 @@ function MobileNav(){
 
 	return(
 
-		<div className="phone menu">
+		<div className="menu">
          <div className="row">
 		 <div className="columnmobileNav">
 		 <a href="/">

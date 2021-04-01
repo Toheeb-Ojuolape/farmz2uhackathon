@@ -2,32 +2,29 @@ import { NavLink } from "react-router-dom";
 import logout from "./../../images/log-out.svg";
 
 
-
 export default function Navbar (){
 
 return(
-<nav className=" laptop nav-wrapper orange lighten-1">
-            <div className="container">
+<div>
               <ul className="center">
+              <div className="container">
                 <li>
                   {" "}
                   <NavLink to="/">
-                    <span>Home</span>
+                    <span className="activeMenu">Home</span>
                   </NavLink>
                 </li>
                 <li>
                   {" "}
                   <NavLink to="/orders">
                     {" "}
-                    <span>
-                      Orders<span className="number">(12)</span>
-                    </span>
+                    Order <span className="number">(12)</span>
                   </NavLink>
                 </li>
                 <li>
                   {" "}
                   <NavLink to="/products">
-                    <span className="activeMenu">
+                    <span>
                       {" "}
                       Products <span className="number">(52)</span>
                     </span>
@@ -35,23 +32,19 @@ return(
                 </li>
                 <li>
                   {" "}
-                  <NavLink to="/stock"> Stock</NavLink>
-                </li>
-                <li>
-                  {" "}
                   <NavLink to="/report"> Report</NavLink>
                 </li>
                 <li className="logOut">
                   {" "}
-                  <NavLink to="/logout">
+                  <a href="/">
                     Logout{" "}
                     <span className="logouticon">
                       <img src={logout} alt="logout" />
                     </span>
-                  </NavLink>
+                  </a>
                 </li>
+                </div>
               </ul>
-            </div>
-          </nav>
+          </div>
 )
 }

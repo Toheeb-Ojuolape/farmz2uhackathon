@@ -10,8 +10,8 @@ return(
               <div className="container">
                 <li>
                   {" "}
-                  <NavLink exact to="/">
-                    <span>Home</span>
+                  <NavLink to="/">
+                    Home
                   </NavLink>
                 </li>
                 <li>

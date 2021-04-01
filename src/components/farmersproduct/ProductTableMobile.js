@@ -6,8 +6,6 @@ import addproduct_icon from './../../images/FAB.svg';
 
 
 
-
-
 const productList = [
 							{
 								productName: "Apple",

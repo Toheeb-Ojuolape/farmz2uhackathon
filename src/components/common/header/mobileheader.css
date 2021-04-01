@@ -1,25 +1,16 @@
-@media only screen and (max-width: 768px) {
-
-	
+@media only screen and (max-width: 1200px) {
 	header{
-
 		margin-top:-10px;
 		margin-right: 0;
 		margin-left: -20px;
 		margin-bottom: -45px;
-
 		background-image: none;
 		background-color: #298525;
-		
-
 		padding-right: 10px;
 		padding-left: 8%;
 		padding-top: 15px;
-
 		height: 59px;
 		width: 100%;
-
-
 	}
 
 
@@ -31,17 +22,11 @@
 
 
 	header .header-flex .farmz2u-logo{
-
-		
-
 		margin-right: 20px;
 		margin-top: 5px;
-
-		
-
 		width:80px;
+		padding:40px;
 		height: 25px;
-
 		font-size: 10px;	
 
 	}
