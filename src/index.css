@@ -10,6 +10,75 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
+
+.column20{
+  float:left;
+  width:10%;
+  margin-top:30px;
+  margin-left:90px
+}
+
+.column21{
+  float:left;
+  width:5%;
+  margin-top:30px
+}
+
+
+.activeMenu{
+  border-radius:60px;
+  background:white;
+  color:orange;
+  padding:10px;
+  position:relative;
+  height:35px;
+}
+
+
+
+
+.column17{
+  float:left;
+  padding:16px;
+  width:16%;
+  font-size:13px
+}
+
+
+
+
+
+
+.circle{
+  border-radius:400px;
+  color:black;
+  opacity:0.4
+}
+
+
+
+.number{
+  font-size:11px
+}
+
+
+.summary{
+  font-weight:600;
+  font-size:20px;
+  margin-bottom:2px
+
+}
+
+.farmers-product{
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top:5px
+}
+
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
